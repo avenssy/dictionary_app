@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './index.css';
-import sound from '/sound.png'
+import sound from '../dist/sound.png'
 
 function App() {
   const [word, setWord] = useState('');
